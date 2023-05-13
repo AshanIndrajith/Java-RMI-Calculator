@@ -15,4 +15,9 @@ public class MyCalculator extends UnicastRemoteObject implements Calculator {
     public int addTwoIntegers(int x, int y) throws RemoteException {
         return x+y;
     }
+
+    @Override
+    public int SubTwoIntegers(int x, int y) throws RemoteException {
+        return x-y;
+    }
 }

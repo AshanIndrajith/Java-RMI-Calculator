@@ -17,6 +17,9 @@ public class MyClient {
             int addition = myCal.addTwoIntegers(12,20);
             System.out.println("Addition of Two Numbers : "+addition);
 
+            int sub = myCal.SubTwoIntegers(12,2);
+            System.out.println("Substraction of Two Numbers : "+sub);
+
 
         } catch (RemoteException e) {
             throw new RuntimeException(e);
